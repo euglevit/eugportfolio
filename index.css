@@ -109,7 +109,7 @@ main{display: grid;grid-template-rows: auto auto auto auto;max-width: 100%;}
 
 }
 
-.about-me p{text-align: center;margin: auto;max-width: 600px;padding: 20px;}
+.about-me p{text-align: left;margin: auto;max-width: 600px;padding: 20px;}
 
 .portfolio{
   grid-template-rows: auto auto auto;
@@ -138,11 +138,13 @@ main{display: grid;grid-template-rows: auto auto auto auto;max-width: 100%;}
 
 .description{font-family: Arial, Helvetica, sans-serif;display: grid;grid-template-rows: auto auto auto 100px;grid-gap: 8px;text-align: center;max-width: 600px;margin: auto;}
 
-.title{font-size: 1.75em;
+.title{
+  font-size: 1.75em;
   color: #ffffff;
   font-weight: bold;
   line-height: 1.5em;
   font-family: 'Montserrat', sans-serif;
+  text-decoration: underline;
 }
 
 .desc{
@@ -150,10 +152,12 @@ main{display: grid;grid-template-rows: auto auto auto auto;max-width: 100%;}
   padding-left: 15px;
   padding-right: 15px;
   font-family: 'PT Serif', serif;
-  
+  text-align: left;
 }
 
-.project-links{}
+.project-links{
+    text-align: left;
+}
 .project-links a{margin-left: 10px;margin-right: 10px;}
 
 .demo{
@@ -327,9 +331,11 @@ fieldset button{
 
 .portfolio-title{
   color: white;
-  background-color: #4D4FB2;
+  background-color: #5052b5;
   height: 100%;
   margin: 0;
   text-align: center;
   font-size: 42px;
+  text-decoration: underline;
+  margin-bottom: 10px;
 }
