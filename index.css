@@ -11,7 +11,7 @@ header {
   display: flex;
   align-items: center;
   padding: 10px;
-  
+  font-family: 'Montserrat', sans-serif;
 }
 
 .header-info{
@@ -36,14 +36,14 @@ canvas {
   position: absolute;
 }  */
 
-.name{font-size: 63px;font-family: 'Roboto', sans-serif;margin: 0;}
+.name{font-size: 63px;/* font-family: 'Roboto', sans-serif; */margin: 0;}
 
-.job{font-family: 'Roboto', sans-serif;font-size: 37px;}
+.job{/* font-family: 'Roboto', sans-serif; */font-size: 37px;}
 
 header p{
   font-size: 21px;
   font-weight: 200;
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
   /* padding-left: 70px; */
   /* padding-right: 70px; */
 }
@@ -82,7 +82,7 @@ nav{
   top: 0;
   left: 0;
   width: 100%;
-  
+  font-family: 'Montserrat', sans-serif;
 }
 
 nav ul{display: flex;margin: auto;list-style: none;color: #ffffff;justify-content: space-around;align-items: center;height: 100%;-webkit-padding-start: 0px;}
@@ -97,7 +97,13 @@ nav ul li a{
 main{display: grid;grid-template-rows: auto auto auto auto;max-width: 100%;}
 
 
-.about-me{background-color: #4D4FB2;color: white;font-family: Arial, Helvetica, sans-serif;padding-top: 64px;text-align: center;}
+.about-me{
+  background-color: #4D4FB2;
+  color: white;
+  padding-top: 64px;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+}
 
 .portrait{
 
@@ -128,13 +134,24 @@ main{display: grid;grid-template-rows: auto auto auto auto;max-width: 100%;}
 
 .project{display: grid;grid-template-rows: 561 auto;/* padding: 30px; *//* margin: auto; */}
 
-.project-image{width: 90%;height: 85%;margin: auto;}
+.project-image{width: 100%;height: 100%;margin: auto;margin-bottom: 0px;margin-top: 10px;}
 
 .description{font-family: Arial, Helvetica, sans-serif;display: grid;grid-template-rows: auto auto auto 100px;grid-gap: 8px;text-align: center;max-width: 600px;margin: auto;}
 
-.title{font-size: 1.75em;color: #ffffff;font-weight: bold;line-height: 1.5em;}
+.title{font-size: 1.75em;
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 1.5em;
+  font-family: 'Montserrat', sans-serif;
+}
 
-.desc{color: white;padding-left: 15px;padding-right: 15px;}
+.desc{
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: 'PT Serif', serif;
+  
+}
 
 .project-links{}
 .project-links a{margin-left: 10px;margin-right: 10px;}
@@ -162,6 +179,7 @@ main{display: grid;grid-template-rows: auto auto auto auto;max-width: 100%;}
   text-decoration: none;
   text-transform: uppercase;
   white-space: nowrap;
+  font-family: 'PT Serif', serif;
 }
 
 .github{
@@ -192,7 +210,7 @@ main{display: grid;grid-template-rows: auto auto auto auto;max-width: 100%;}
 
 .contact{background-color: #5e42a6;}
 
-.contact h2{color: #ffffff;font-family: Arial, Helvetica, sans-serif;text-align: center;}
+.contact h2{color: #ffffff;text-align: center;}
 
 form{max-width: 600px;margin: auto;}
 
@@ -251,6 +269,7 @@ fieldset button{
   text-transform: uppercase;
   white-space: nowrap;
   margin-top: 30px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #firstname{
@@ -293,7 +312,24 @@ fieldset button{
 .social-link a{color: white;font-size: 30px;}
 
 .social-link a i{
-  
 }
 
 .project img{max-width: 600px;}
+
+#contact{
+  font-family: 'Montserrat', sans-serif;
+}
+
+#contact a{
+  color: white;
+  text-decoration: none;
+}
+
+.portfolio-title{
+  color: white;
+  background-color: #4D4FB2;
+  height: 100%;
+  margin: 0;
+  text-align: center;
+  font-size: 42px;
+}
