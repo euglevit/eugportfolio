@@ -16,7 +16,7 @@ $(document).ready(function () {
         let $target = $(target);
   
         $('html, body').stop().animate({
-          'scrollTop': $target.offset().top + 10
+          'scrollTop': $target.offset().top + 500
         }, 900, 'swing');
         
         $(document).on("scroll", onScroll);
@@ -92,11 +92,11 @@ setTimeout(function() {
 
   setTimeout(function() {
     $('#success-heading').fadeOut('fast');
-  }, 2000);
+  }, 5000);
 
   setTimeout(function() {
-    $('form').fadeIn('fast');
-  }, 2200);
+    $('form').fadeIn('slow');
+  }, 5000);
 }
 
 function watchFormSubmit() {
